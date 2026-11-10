@@ -7,6 +7,7 @@ Bug fixes merged into other open-source VPN and proxy projects. Each one came wi
 | [SagerNet/sing-tun](https://github.com/SagerNet/sing-tun) | [#106](https://github.com/SagerNet/sing-tun/pull/106) Fix IP headers of synthesized UDP replies (stale ECN marks, RFC 3168) · [#107](https://github.com/SagerNet/sing-tun/pull/107) Do not route replies of peer-initiated UDP flows into the TUN |
 | [SagerNet/sing](https://github.com/SagerNet/sing) | [#119](https://github.com/SagerNet/sing/pull/119) Fix a race between Read and Close in cached connections · [#118](https://github.com/SagerNet/sing/pull/118) Cancel the winning attempt's context in parallel dial |
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | [#10548](https://github.com/2dust/v2rayN/pull/10548) Keep the WebSocket path query when removing `ed` (sing-box) |
+| [2dust/v2rayNG](https://github.com/2dust/v2rayNG) | [#6413](https://github.com/2dust/v2rayNG/pull/6413) Split share link query pairs on the first `=` only |
 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | [#7042](https://github.com/MHSanaei/3x-ui/pull/7042) A partial client update no longer wipes fields it does not mention |
 | [alireza0/s-ui](https://github.com/alireza0/s-ui) | [#1343](https://github.com/alireza0/s-ui/pull/1343) Accept TLS handshakes without SNI when the panel domain is an IP |
 | [throneproj/Throne](https://github.com/throneproj/Throne) | [#2098](https://github.com/throneproj/Throne/pull/2098) Apply a group's front and landing proxy to routing rule outbounds |
