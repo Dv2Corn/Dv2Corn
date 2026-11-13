@@ -29,3 +29,4 @@ Bug fixes merged into other open-source VPN, proxy and networking projects. Each
 | [go-gost/x](https://github.com/go-gost/x) | [#146](https://github.com/go-gost/x/pull/146) obfs/tls: write the whole first payload on the server side · [#147](https://github.com/go-gost/x/pull/147) obfs/http: keep the data that follows the request body |
 | [fail2ban/fail2ban](https://github.com/fail2ban/fail2ban) | [#4272](https://github.com/fail2ban/fail2ban/pull/4272) Reload resets jail options removed from the configuration |
 | [redis/redis-py](https://github.com/redis/redis-py) | [#4630](https://github.com/redis/redis-py/pull/4630) Return floats from T-Digest list commands and TOPK.INFO on RESP2 |
+| [websockets/ws](https://github.com/websockets/ws) | [#2358](https://github.com/websockets/ws/pull/2358) [fix] Do not mask a `SharedArrayBuffer` in place |
