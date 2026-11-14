@@ -9,7 +9,14 @@ QA / SDET focused on networking software: VPN and proxy panels, clients and netw
 - [go-redis: a 0.5 ms timeout turned into "wait forever"](case-studies/go-redis-sub-millisecond-timeouts.md) — boundary values
 - [fasthttp: a proxy URL ending in "/" broke every request](case-studies/fasthttp-proxy-trailing-slash.md) — input formats, regression
 - [sshuttle: one unreachable DNS server killed the tunnel](case-studies/sshuttle-unreachable-nameserver.md) — fault injection
-- [3x-ui: a partial API update silently disabled customers](case-studies/3x-ui-partial-update-data-loss.md) — API contract, data loss
+- [3x-ui: a partial API update silently disabled clients](case-studies/3x-ui-partial-update-data-loss.md) — API contract, data loss
+
+**In-depth investigations** (in [still-ui-qa/case-studies](https://github.com/Dv2Corn/still-ui-qa/tree/main/case-studies)):
+
+- [3x-ui: a partial update silently wiped a VPN key](https://github.com/Dv2Corn/still-ui-qa/blob/main/case-studies/01-3x-ui-update-wipes-awg-psk.md) — test data classes, read-after-write checks
+- [Xray ≥ 26.9 silently rejects common clients](https://github.com/Dv2Corn/still-ui-qa/blob/main/case-studies/02-xray-26-9-rejects-fp-ios.md) — compatibility matrix as a release gate
+- [sing-tun: UDP replies echo congestion marks](https://github.com/Dv2Corn/still-ui-qa/blob/main/case-studies/03-sing-tun-udp-replies-echo-ecn.md) — protocol compliance, RFC 3168
+- [72-hour memory soak against upstream](https://github.com/Dv2Corn/still-ui-qa/blob/main/case-studies/04-72h-panel-memory-soak.md) — soak test with a control group
 
 **QA artifacts:** [still-ui-qa](https://github.com/Dv2Corn/still-ui-qa) — test plan, bug reports and an API + UI test suite (pytest, requests, Playwright) running in GitHub Actions against a real release of still-ui.
 

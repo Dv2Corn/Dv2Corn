@@ -9,7 +9,7 @@
 - switched the client off (`enable=false`);
 - reset the traffic and device limits, the Telegram id, the comment, the group and the renewal settings to zero.
 
-A shop bot that renews subscriptions this way would quietly turn off paying customers and remove their limits.
+Any integration that renews clients this way would quietly turn off paying users and remove their limits.
 
 ## Reproduction
 
