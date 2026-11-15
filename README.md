@@ -2,7 +2,7 @@
 
 QA / SDET focused on networking software: VPN and proxy panels, clients and network libraries. I find bugs, write reproducible bug reports and back every fix with a regression test that fails before the fix and passes after it.
 
-**Accepted upstream bug fixes:** 59 in 28 open-source projects, among them sing-box's networking libraries (SagerNet/sing, sing-tun), 3x-ui, mihomo, v2rayN/v2rayNG, Hiddify, SoftEther VPN, sshuttle, dnscrypt-proxy, fail2ban, redis-py, go-redis, fasthttp and the Node.js ws library. [Full list →](CONTRIBUTIONS.md)
+**Accepted upstream bug fixes:** 60 in 29 open-source projects, among them sing-box's networking libraries (SagerNet/sing, sing-tun), 3x-ui, mihomo, v2rayN/v2rayNG, Hiddify, SoftEther VPN, sshuttle, dnscrypt-proxy, fail2ban, redis-py, go-redis, fasthttp, the PasarGuard panel and the Node.js ws library. [Full list →](CONTRIBUTIONS.md)
 
 **Case studies** — bug → reproduction → root cause → test design → fix:
 
