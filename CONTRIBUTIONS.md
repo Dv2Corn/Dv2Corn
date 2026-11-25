@@ -36,3 +36,4 @@ Bug fixes merged into other open-source VPN, proxy and networking projects. Each
 | [enfein/mieru](https://github.com/enfein/mieru) | [#326](https://github.com/enfein/mieru/pull/326) Check IP literals sent as domain names in egress guard |
 | [amnezia-vpn/amneziawg-go](https://github.com/amnezia-vpn/amneziawg-go) | [#208](https://github.com/amnezia-vpn/amneziawg-go/pull/208) Make I1-I5 safe to change while handshakes are sent · [#207](https://github.com/amnezia-vpn/amneziawg-go/pull/207) Name the real S1-S4 parameter in the header protection padding error |
 | [PasarGuard/scripts](https://github.com/PasarGuard/scripts) | [#47](https://github.com/PasarGuard/scripts/pull/47) Accept region names in geofiles and add help |
+| [jameszeroX/XKeen](https://github.com/jameszeroX/XKeen) | [#320](https://github.com/jameszeroX/XKeen/pull/320) TProxy/Hybrid: не отдавать в TPROXY ответные пакеты непроксируемых соединений |
