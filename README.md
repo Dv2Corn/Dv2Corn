@@ -2,7 +2,7 @@
 
 QA / SDET focused on networking software: VPN and proxy panels, clients and network libraries. I find bugs, write reproducible bug reports and back every fix with a regression test that fails before the fix and passes after it.
 
-**Accepted upstream bug fixes:** 72 in 32 open-source projects, among them sing-box's networking libraries (SagerNet/sing, sing-tun), 3x-ui, mihomo, v2rayN/v2rayNG, Hiddify, SoftEther VPN, AmneziaWG, sshuttle, dnscrypt-proxy, fail2ban, redis-py, go-redis, fasthttp, the PasarGuard panel and the Node.js ws library. [Full list →](CONTRIBUTIONS.md)
+**Accepted upstream bug fixes:** 74 in 33 open-source projects, among them sing-box's networking libraries (SagerNet/sing, sing-tun), 3x-ui, mihomo, v2rayN/v2rayNG, Hiddify, SoftEther VPN, AmneziaWG, sshuttle, dnscrypt-proxy, fail2ban, redis-py, go-redis, fasthttp, the PasarGuard panel and the Node.js ws library. [Full list →](CONTRIBUTIONS.md)
 
 **Case studies** — bug → reproduction → root cause → test design → fix:
 
@@ -29,5 +29,8 @@ QA / SDET focused on networking software: VPN and proxy panels, clients and netw
 **Tools:** Python (pytest, requests, Playwright), Go testing, Docker, GitHub Actions, Linux networking, Git.
 
 **Own projects**
-- [still-ui](https://github.com/Dv2Corn/still-ui) — a maintained fork of the 3x-ui panel; releases built and attested by GitHub Actions.
+- [still-ui](https://github.com/Dv2Corn/still-ui) — an Xray panel continuing 3x-ui: VLESS REALITY, Hysteria2 with port hopping and AmneziaWG from one panel; releases built and attested by GitHub Actions.
+- [agent-approve](https://github.com/Dv2Corn/agent-approve) — a human says yes in Telegram before an AI agent publishes anything; the approved bytes are frozen by hash.
+- [compose-guard](https://github.com/Dv2Corn/compose-guard) — deploy a new image to a Docker Compose server and roll back automatically if it breaks.
+- [backup-chain](https://github.com/Dv2Corn/backup-chain) — age-encrypted backups along server → home computer → NAS, with an alert when a copy is stale or the pull fails.
 - [xui-doctor](https://github.com/Dv2Corn/xui-doctor) — a read-only health checker for 3x-ui and still-ui panels.
