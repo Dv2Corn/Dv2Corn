@@ -38,3 +38,4 @@ Bug fixes merged into other open-source VPN, proxy and networking projects. Each
 | [PasarGuard/scripts](https://github.com/PasarGuard/scripts) | [#47](https://github.com/PasarGuard/scripts/pull/47) Accept region names in geofiles and add help |
 | [jameszeroX/XKeen](https://github.com/jameszeroX/XKeen) | [#320](https://github.com/jameszeroX/XKeen/pull/320) TProxy/Hybrid: не отдавать в TPROXY ответные пакеты непроксируемых соединений |
 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | [#7396](https://github.com/acmesh-official/acme.sh/pull/7396) Dns_ovh: detect OVH API errors by the HTTP status |
+| [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) | [#5403](https://github.com/python-telegram-bot/python-telegram-bot/pull/5403) Upload files passed as video cover, live photo or poll option media |
